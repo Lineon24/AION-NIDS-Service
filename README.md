@@ -111,6 +111,10 @@
 
 <br/>
 
+## 🏆 Awards
+* **정보통신학과 공모전 장려상 수상**
+<br/>
+
 ## 🚀 Getting Started (시작 가이드)
 
 ### 🏠 1. 메인 사이트 접속
@@ -232,6 +236,57 @@ AION 서비스의 메인 랜딩 페이지입니다.
 </div>
 <br/>
 
-## 🏆 Awards
-* **정보통신학과 공모전 장려상 수상**
+## 🛠️ Development Process
+
+### 1. Final System Architecture (최종 시스템 아키텍처)
+> **"Secure Pipeline for Real-time Threat Detection"**
+> 개발 완료 후 정립된 최종 시스템 구조입니다. 데이터의 수집부터 분석, 시각화까지 이어지는 파이프라인을 **보안성(Security)**과 **실시간성(Real-time)**에 초점을 맞춰 구현했습니다.
+
+* **Secure Data Transmission:**
+    * 사용자 분석기(AION_Sentinel)는 **5초 단위**로 플로우 통계 데이터를 집계하여 전송합니다.
+    * 단순 전송이 아닌, **API Key와 Auth Key를 조합한 Hash 검증** 로직(Random Salt + Admin Value)을 통해 비인가된 접근을 원천 차단합니다.
+* **Decoupled AI Engine:**
+    * AI 분석 서버는 인증된 데이터의 **41개 핵심 피처**를 분석하여 공격 여부를 판별하고, 그 결과를 즉시 웹 서버와 DB로 전파합니다.
+* **Centralized Data Management:**
+    * 데이터베이스 서버는 사용자 정보, 트래픽 로그, 위험 IP 목록을 통합 관리하며 전체 시스템의 허브 역할을 수행합니다.
+
+<div align="center">
+  <img src="./images/간단한 아키텍처.png" alt="Final System Architecture Diagram" width="90%">
+  <p><em>[Figure 1] 간단한 아키텍처</em></p>
+</div>
+
+<br>
+
+### 2. Initial Wireframe & Design (초기 기획 및 와이어프레임)
+> **"Blueprint for the Dashboard"**
+> 프로젝트 착수 단계에서 구상한 **초기 디자인(Prototype)**입니다. '판단'과 '대응'이 직관적으로 가능한 UI를 목표로 설계되었습니다.
+
+개발 과정에서 실제 구현 가능성과 사용자 편의성을 고려하여 UI를 지속적으로 고도화하였으며, 아래의 초기 기획안을 바탕으로 현재의 대시보드가 완성되었습니다.
+
+* **Concept:** 복잡한 설정 없이 API를 발급받고(Onboarding), 네트워크 흐름을 한눈에 보며(Monitoring), 위협에 대응(Response)하는 3단계 구성을 기획했습니다.
+* **Plan:** * **Overview:** 텍스트보다는 그래프와 차트 위주의 시각화 배치
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>초기 와이어 프레임: 페이지들</b></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img src="./images/와이어프레임1.png" width="80%"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><b>초기 와이어 프레임: 대시보드 1</b></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img src="./images/와이어프레임2.png" width="80%"></td>
+    </tr>
+        <tr>
+      <td colspan="2" align="center"><b>초기 와이어 프레임: 대시보드 2</b></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img src="./images/와이어프레임3.png" width="60%"></td>
+    </tr>
+  </table>
+  <p><em>[Figure 2] 프로젝트 초기 와이어 프레임</em></p>
+</div>
 
