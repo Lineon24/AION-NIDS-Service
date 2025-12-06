@@ -3,6 +3,11 @@
 
 **AION**은 AI를 활용하여 사용자의 네트워크 트래픽 상태를 실시간으로 분석하고, 위협적인 공격을 감지하여 시각화해 주는 웹 기반 보안 플랫폼입니다.
 
+> **[🛡️ 탐지 범위 (Detection Scope)]**
+> * **💥 DDoS & Flooding:** `SYN Flood`, `UDP Flood`, `UDP Amplification`, `ICMP Flood`, `Other TCP Flood`
+> * **🕵️ Reconnaissance (정찰):** `Port Scan` (포트 스캔)
+> * **🐢 Slow-Rate Attack:** `Slowloris` (저속 공격)
+
 <br/>
 
 <div align="center">
@@ -154,9 +159,9 @@ AION 서비스의 메인 랜딩 페이지입니다.
 <br/>
 
 ## 🚨 Core Features: 공격 탐지
-
 ### ⚠️ 공격 탐지 알림
-분석기가 공격 패킷을 감지하면 즉시 화면에 경고 로고가 나타납니다.
+분석기가 공격 패킷을 감지하면 즉시 화면에 경고 로고가 나타납니다. AION은 아래의 **7가지 주요 네트워크 공격**을 실시간으로 식별합니다.
+
 <div align="center">
   <img src="./images/공격 탐지 1.gif" width="100%" />
 </div>
