@@ -12,9 +12,9 @@
 
 <div align="center">
 
-[![AION 시연 영상](https://img.youtube.com/vi/f3IA_bDUtyc/0.jpg)](https://youtu.be/hAPD6JiZzeE)
+[![AION 시연 영상](https://img.youtube.com/vi/hAPD6JiZzeE/0.jpg)](https://www.youtube.com/watch?v=hAPD6JiZzeE)
 
-[📺 AION 시연 영상 보러가기](hhttps://youtu.be/hAPD6JiZzeE)
+[📺 AION 시연 영상 보러가기](https://www.youtube.com/watch?v=hAPD6JiZzeE)
 
 </div>
 
