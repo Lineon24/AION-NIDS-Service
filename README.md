@@ -112,7 +112,10 @@
 <br/>
 
 ## 🏆 Awards
+* **U7 Makers 대회 안양대 총장상**
+* **TEAM UP! 라이프톤 대상**
 * **정보통신학과 공모전 장려상 수상**
+
 <br/>
 
 ## 🚀 Getting Started (시작 가이드)
