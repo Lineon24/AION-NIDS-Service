@@ -1,7 +1,7 @@
 # 🛡️ AION(아이온)
 > **AI 기반 네트워크 공격 감지 서비스 (NIDS)**
 
-**AION**은 AI를 활용하여 사용자의 네트워크 트래픽 상태를 실시간으로 분석하고, 위협적인 공격을 감지하여 시각화해 주는 웹 기반 보안 플랫폼입니다.
+**AION**은 AI를 활용하여 사용자의 네트워크 트래픽 상태를 실시간으로 분석하고, 위협적인 공격을 감지하여 시각화해 주는 웹 기반 보안 플랫폼입니다. 
 
 > **[🛡️ 탐지 범위 (Detection Scope)]**
 > * **💥 DDoS & Flooding:** `SYN Flood`, `UDP Flood`, `UDP Amplification`, `ICMP Flood`, `Other TCP Flood`
