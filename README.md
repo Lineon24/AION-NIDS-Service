@@ -1,9 +1,9 @@
-# 🛡️ AION(아이온)
+# <img src="./images/aion-favicon.png" alt="AION 로고" width="36" height="36" /> AION(아이온)
 > **AI 기반 네트워크 공격 감지 서비스 (NIDS)**
 
 **AION**은 AI를 활용하여 사용자의 네트워크 트래픽 상태를 실시간으로 분석하고, 위협적인 공격을 감지하여 시각화해 주는 웹 기반 보안 플랫폼입니다. 
 
-> **[🛡️ 탐지 범위 (Detection Scope)]**
+> **[<img src="./images/aion-favicon.png" alt="" width="20" height="20" /> 탐지 범위 (Detection Scope)]**
 > * **💥 DDoS & Flooding:** `SYN Flood`, `UDP Flood`, `UDP Amplification`, `ICMP Flood`, `Other TCP Flood`
 > * **🕵️ Reconnaissance (정찰):** `Port Scan` (포트 스캔)
 > * **🐢 Slow-Rate Attack:** `Slowloris` (저속 공격)
@@ -240,6 +240,20 @@ AION 서비스의 메인 랜딩 페이지입니다.
 <br/>
 
 ## 🛠️ Development Process
+
+### 개발 경험: 오탐 개선부터 사용자 피드백까지
+
+팀장 이준희는 데이터 수집기·데이터셋·AI 모델·분석 서버를 개발하고, 시스템 아키텍처와 JSON 인터페이스·API 인증 알고리즘을 설계했습니다. 웹 개발은 서승진, 분석기 고도화·GUI·매뉴얼은 김윤정이 맡아 하나의 서비스로 연결했습니다.
+
+| 단계 | 해결한 문제와 변화 | 팀 성과 |
+| --- | --- | --- |
+| 측정 방식 재설계 | 공개 데이터셋 기반 모델의 반복적인 오탐을 계기로 **5초 통계 특징과 자체 수집 데이터**로 전환하고 초기 웹과 연동 | 정보통신학과 공모전 장려상 |
+| 탐지·서비스 확장 | Slowloris·Port Scan 특징 추가, 피해자 측 응답·반사 데이터 정제, API 인증·위험 IP 조회·통계 시각화 연결 | TEAM UP! 라이프톤 대상 |
+| 사용성 개선 | **전공자·비전공자 10명**의 설문과 피드백을 설명서·용어 안내·웹 및 분석기 화면 개선에 반영 | U7 Makers 안양대 총장상 |
+
+최종 모델은 41개 특징으로 정상과 7개 공격 유형을 분류하며, **자체 테스트셋 6,095건에서 정확도 100%**를 기록했습니다. 이 수치는 해당 테스트셋의 평가 결과이며 실운영 환경의 탐지 성능을 보장하지 않습니다. 위 단계는 개발·출품 순서로, 상장 발급일 순서와는 다릅니다.
+
+**[이준희의 개발 경험 자세히 보기 →](./docs/development-experience.md)** — 측정 방식의 선택, 오분류 원인 추적, 분석 서버 구현과 팀 협업 과정
 
 ### 1. Final System Architecture (최종 시스템 아키텍처)
 > **"Secure Pipeline for Real-time Threat Detection"**
