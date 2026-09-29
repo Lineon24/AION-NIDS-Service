@@ -328,12 +328,6 @@ TEAM UP! 이후 전공자·비전공자 총 10명에게 서비스를 사용하�
 - **구성 요소 사이의 의미 맞추기:** 수집기·모델·서버·화면이 같은 특징과 결과를 해석하도록 인터페이스와 책임을 정했습니다.
 - **사용자의 이해까지 개발 범위에 포함하기:** 기능 구현 이후에도 실제 피드백을 받아 설명과 화면을 개선했습니다.
 
-#### 관련 기록
-
-- [개인 경험 원문과 평가·구현 상세](https://github.com/Lineon24/profile/blob/main/experiences/01-aion-nids.md)
-- [최종 보고서·발표자료 안내](https://github.com/Lineon24/profile/tree/main/experiences/materials/aion)
-- [수상 증빙](https://github.com/Lineon24/profile/tree/main/experiences/awards/aion)
-
 ### 1. Final System Architecture (최종 시스템 아키텍처)
 > **"Secure Pipeline for Real-time Threat Detection"**
 > 개발 완료 후 정립된 최종 시스템 구조입니다. 데이터의 수집부터 분석, 시각화까지 이어지는 파이프라인을 **보안성(Security)**과 **실시간성(Real-time)**에 초점을 맞춰 구현했습니다.
