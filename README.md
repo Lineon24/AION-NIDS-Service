@@ -25,9 +25,9 @@
 <table width="100%">
   <thead>
     <tr>
-      <th width="33%" align="center">💻 웹 사이트 개발</th>
-      <th width="34%" align="center">🧠 AI 분석 서버 개발</th>
-      <th width="33%" align="center">🕵️ 분석기 개발 (Client)</th>
+      <th width="33%" align="center">💻 웹 서비스·데이터베이스 개발</th>
+      <th width="34%" align="center">🧠 프로젝트 총괄 / R&amp;D·인공지능 개발</th>
+      <th width="33%" align="center">🕵️ 네트워크 분석기 개발</th>
     </tr>
   </thead>
   <tbody>
@@ -52,40 +52,37 @@
       <td align="center">
         <b>서승진</b> <br/><br/>
         <span style="font-size: 13px;">
-          웹 사이트 구현<br/>
-          로그인/회원가입<br/>
-          API 인증<br/>
-          API 별 데이터 관리<br/>
-          트래픽 통계 시각화<br/>
-          실시간 트래픽 요약<br/>
-          실시간 이메일 알림
+          웹사이트·로그인·회원가입 구현<br/>
+          데이터베이스 설계·구축<br/>
+          API 키 발급·인증·활성 상태 관리<br/>
+          API 키별 트래픽·분석 결과 관리<br/>
+          트래픽 통계·실시간 요약 시각화<br/>
+          위험 IP 목록·위치·공격 이력 조회<br/>
+          공격 이메일 알림·웹 화면 개선
         </span>
       </td>
       <td align="center">
-        <b>이준희</b> <br/>
-        <span style="font-size: 12px;">👑 팀장</span><br/><br/>
+        <b>이준희</b> <br/><br/>
         <span style="font-size: 13px;">
-          프로젝트 총괄<br/>
-          시스템 아키텍처 설계<br/>
-          JSON 포맷 정의<br/>
-          <br/>
-          핵심 방법론 연구<br/>
-          (특징/트래픽 측정 방식)<br/>
-          학습 데이터셋 자체 구축<br/>
-          데이터 수집기 개발<br/>
-          AI 공격 탐지 모델 제작
+          프로젝트 총괄·시스템 아키텍처 설계<br/>
+          공격 특성 연구·탐지 방법론 R&amp;D<br/>
+          5초 통계 기반 측정 방식·41개 특징 설계<br/>
+          자체 데이터셋 구축·오분류 분석·데이터 정제<br/>
+          XGBoost 모델·FastAPI 분석 서버 개발<br/>
+          API 인증 알고리즘·키 검증 구현<br/>
+          JSON 인터페이스·초기 와이어프레임 설계
         </span>
       </td>
       <td align="center">
         <b>김윤정</b> <br/><br/>
         <span style="font-size: 13px;">
-          데이터 수집기 고도화<br/>
-          (분석기 제작)<br/>
-          트래픽 통계 실시간 확인<br/>
-          위험 IP 탐지<br/>
-          사용자 편의성 설정<br/>
-          분석기 패키징<br/>
-          매뉴얼 제작
+          데이터 수집기 고도화·분석기 제작<br/>
+          API 키 등록·서버 연동<br/>
+          트래픽 통계 실시간 모니터링<br/>
+          임계치 기반 위험 IP 후보 식별<br/>
+          위험 IP 정보의 웹 서버 전달<br/>
+          분석기 화면·사용자 설정 개선<br/>
+          분석기 패키징·사용 설명서 제작
         </span>
       </td>
     </tr>
